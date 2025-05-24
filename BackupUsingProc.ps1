@@ -127,12 +127,12 @@ Dev Script By Meshary Alali
     Set-Content -Path $txtPath -Value $txtContent -Encoding UTF8
 
     # ========== Final Message ==========
-    Write-Host "✅ All Tasks Completed Successfully!" -ForegroundColor Green
-    Write-Host "📄 Report Saved: $txtPath" -ForegroundColor Cyan
-    Write-Host "💾 Backup Saved: $backupPath" -ForegroundColor Cyan
+    Write-Host " All Tasks Completed Successfully!" -ForegroundColor Green
+    Write-Host " Report Saved: $txtPath" -ForegroundColor Cyan
+    Write-Host " Backup Saved: $backupPath" -ForegroundColor Cyan
 }
 catch {
-    Write-Host "❌ An error occurred:" -ForegroundColor Red
+    Write-Host " An error occurred:" -ForegroundColor Red
     Write-Host "Details: $($_.Exception.Message)" -ForegroundColor Yellow
 }
 finally {
