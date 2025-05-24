@@ -34,7 +34,7 @@ Execute the script:
 
 ```powershell
 CD Path dirctory script
-.\backup_script.ps1
+.\chose Any script you need with SQl Driect Or With peoc .ps1
 ```
 
 You will be prompted to enter the following:
@@ -110,7 +110,7 @@ Dev Script By Meshary alali (:
 
  [Meshary Alali](https://github.com/msalali)
 
- [LICENSE](https://github.com/Msalali/BackupScript/blob/main/LICENSE)
+ 
 
 ---
 
@@ -153,7 +153,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
 ```powershell
 CD Path dirctory script
-.\backup_script.ps1
+.\chose Any script you need with SQl Driect Or With peoc .ps1
 
 ```
 
@@ -226,7 +226,7 @@ Dev Script By Meshary alali (:
 
  [مشاري العلي](https://github.com/msalali)
 
-[الترخيص](https://github.com/Msalali/BackupScript/blob/main/LICENSE)
+
 
 ---
 
