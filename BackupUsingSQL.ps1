@@ -1,3 +1,7 @@
+# =============================================
+# PowerShell Script: SQL Server Backup Utility
+# Dev Script By: Meshary Alali
+# =============================================
 # ExecutionPolicy
 # Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
