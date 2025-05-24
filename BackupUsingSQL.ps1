@@ -20,7 +20,7 @@ if (-not (Test-Path $backupDir)) {
     try {
         New-Item -ItemType Directory -Path $backupDir -Force | Out-Null
     } catch {
-        Write-Host "❌ Failed to create directory $backupDir. Check permissions." -ForegroundColor Red
+        Write-Host " Failed to create directory $backupDir. Check permissions." -ForegroundColor Red
         return
     }
 }
@@ -166,6 +166,6 @@ Dev Script By Meshary alali (:
 
 }
 catch {
-    Write-Host "`n❌ Error occurred:" -ForegroundColor Red
+    Write-Host "`n Error occurred:" -ForegroundColor Red
     Write-Host "$($_.Exception.Message)" -ForegroundColor Yellow
 }
